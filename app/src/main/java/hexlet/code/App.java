@@ -1,5 +1,6 @@
 package hexlet.code;
 
+import hexlet.games.Calc;
 import hexlet.games.Even;
 
 import java.io.IOException;
@@ -9,6 +10,7 @@ public class App {
         System.out.println("Please enter the game number and press Enter.");
         System.out.println("1 - Greet");
         System.out.println("2 - Even");
+        System.out.println("3 - Calc");
         System.out.println("0 - Exit");
 
         String choice = readInput();
@@ -19,6 +21,9 @@ public class App {
                 break;
             case "2":
                 Even.runGame();
+            case "3":
+                Calc.runGame();
+                break;
             default:
                 break;
         }
