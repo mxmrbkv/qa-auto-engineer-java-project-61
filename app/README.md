@@ -154,3 +154,52 @@ Your answer: 1
 '1' is wrong answer ;(. Correct answer was '25'.
 Let's try again, Sam!
 ```
+
+### Игра: Арифметическая прогрессия (Progression)
+Показывается ряд чисел, образующий арифметическую прогрессию, в которой одно из чисел скрыто двумя точками (`..`). Необходимо определить пропущенное число.
+
+Пример правильного поведения игры:
+```text
+Please enter the game number and press Enter.
+1 - Greet
+2 - Even
+3 - Calc
+4 - GCD
+5 - Progression
+0 - Exit
+Your choice: 5
+Welcome to the Brain Games!
+May I have your name? Sam
+Hello, Sam!
+What number is missing in the progression?
+Question: 5 7 9 11 13 .. 17 19 21 23
+Your answer: 15
+Correct!
+Question: 2 5 8 .. 14 17 20 23 26 29
+Your answer: 11
+Correct!
+Question: 14 19 24 29 34 39 44 49 54 ..
+Your answer: 59
+Correct!
+Congratulations, Sam!
+```
+
+Пример ошибки в поведении игры:
+```text
+Please enter the game number and press Enter.
+1 - Greet
+2 - Even
+3 - Calc
+4 - GCD
+5 - Progression
+0 - Exit
+Your choice: 5
+Welcome to the Brain Games!
+May I have your name? Sam
+Hello, Sam!
+What number is missing in the progression?
+Question: 5 7 9 11 13 .. 17 19 21 23
+Your answer: 1
+'1' is wrong answer ;(. Correct answer was '15'.
+Let's try again, Sam!
+```
