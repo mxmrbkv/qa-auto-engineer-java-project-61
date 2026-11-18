@@ -3,6 +3,7 @@ package hexlet.code;
 import hexlet.games.Calc;
 import hexlet.games.Even;
 import hexlet.games.GCD;
+import hexlet.games.Prime;
 import hexlet.games.Progression;
 import java.io.IOException;
 
@@ -14,6 +15,7 @@ public class App {
         System.out.println("3 - Calc");
         System.out.println("4 - GCD");
         System.out.println("5 - Progression");
+        System.out.println("6 - Prime");
         System.out.println("0 - Exit");
         System.out.print("Your choice: ");
 
@@ -34,6 +36,9 @@ public class App {
                 break;
             case "5":
                 Progression.runGame();
+                break;
+            case "6":
+                Prime.runGame();
                 break;
             case "0":
                 break;

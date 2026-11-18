@@ -203,3 +203,55 @@ Your answer: 1
 '1' is wrong answer ;(. Correct answer was '15'.
 Let's try again, Sam!
 ```
+
+### Игра: Простое ли число? (Prime)
+Показывается случайное число. Нужно ответить `yes`, если число простое, или `no` — если нет.
+
+Пример правильного поведения игры:
+```text
+Please enter the game number and press Enter.
+1 - Greet
+2 - Even
+3 - Calc
+4 - GCD
+5 - Progression
+6 - Prime
+0 - Exit
+Your choice: 6
+Welcome to the Brain Games!
+May I have your name? Sam
+Hello, Sam!
+Answer 'yes' if given number is prime. Otherwise answer 'no'.
+Question: 7
+Your answer: yes
+Correct!
+Question: 14
+Your answer: no
+Correct!
+Question: 19
+Your answer: yes
+Correct!
+Congratulations, Sam!
+```
+
+Пример ошибки в поведении игры:
+```text
+Please enter the game number and press Enter.
+1 - Greet
+2 - Even
+3 - Calc
+4 - GCD
+5 - Progression
+6 - Prime
+0 - Exit
+Your choice: 6
+Welcome to the Brain Games!
+May I have your name? Sam
+Hello, Sam!
+Answer 'yes' if given number is prime. Otherwise answer 'no'.
+Question: 7
+Your answer: no
+'no' is wrong answer ;(. Correct answer was 'yes'.
+Let's try again, Sam!
+```
+
