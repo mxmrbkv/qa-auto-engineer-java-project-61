@@ -107,3 +107,50 @@ Your answer: 145
 '145' is wrong answer ;(. Correct answer was '175'.
 Let's try again, Sam!
 ```
+
+### Игра: НОД (Brain GCD)
+Показываются два случайных числа. Необходимо вычислить и ввести их наибольший общий делитель.
+
+Пример правильного поведения игры:
+```text
+Please enter the game number and press Enter.
+1 - Greet
+2 - Even
+3 - Calc
+4 - GCD
+0 - Exit
+Your choice: 4
+Welcome to the Brain Games!
+May I have your name? Sam
+Hello, Sam!
+Find the greatest common divisor of given numbers.
+Question: 25 50
+Your answer: 25
+Correct!
+Question: 100 52
+Your answer: 4
+Correct!
+Question: 3 9
+Your answer: 3
+Correct!
+Congratulations, Sam!
+```
+
+Пример ошибки в поведении игры:
+```text
+Please enter the game number and press Enter.
+1 - Greet
+2 - Even
+3 - Calc
+4 - GCD
+0 - Exit
+Your choice: 4
+Welcome to the Brain Games!
+May I have your name? Sam
+Hello, Sam!
+Find the greatest common divisor of given numbers.
+Question: 25 50
+Your answer: 1
+'1' is wrong answer ;(. Correct answer was '25'.
+Let's try again, Sam!
+```
